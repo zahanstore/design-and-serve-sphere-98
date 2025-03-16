@@ -27,7 +27,7 @@ const services = [
     ),
   },
   {
-    title: 'Learning Management',
+    title: 'Learning Management Systems',
     description: 'Comprehensive LMS solutions designed to streamline education delivery, enhance engagement, and optimize learning outcomes.',
     icon: (
       <svg
