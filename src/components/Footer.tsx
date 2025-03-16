@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -160,7 +159,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Zayed Fox. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 sm:mt-0">
               <a href="#" className="text-sm text-muted-foreground hover:text-foreground">
