@@ -41,6 +41,49 @@ const Index: React.FC = () => {
         
         <ServicesGrid />
         
+        {/* About Me Section */}
+        <section className="py-20 px-6 bg-background">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+              <div className="animate-fade-in opacity-0">
+                <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                  <img 
+                    src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613"
+                    alt="Zayed Fox - Senior Architect"
+                    className="w-full aspect-[3/4] object-cover transition-transform duration-700 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              
+              <div>
+                <div className="space-y-6">
+                  <span className="inline-block text-sm font-medium py-1 px-3 rounded-full bg-primary/10 text-primary animate-fade-in opacity-0">
+                    About Me
+                  </span>
+                  <h2 className="text-3xl font-semibold animate-fade-in opacity-0 delay-100">
+                    Zayed Fox
+                  </h2>
+                  <div className="space-y-4">
+                    <p className="text-muted-foreground animate-fade-in opacity-0 delay-200">
+                      Zayed is a Senior Architect, Entrepreneur & businessman. He has 15+ years of experience in Architecture, he specializes in, Leisure Housing, Luxury Holiday homes, Villas, Hotels, Resorts, Cottages & Corporate Spaces.
+                    </p>
+                    <p className="text-muted-foreground animate-fade-in opacity-0 delay-300">
+                      Spanning over 15 years of immersive experience across diverse sectors, his journey commenced with a deep-rooted passion for architecture. Within this realm, Zayed has carved a niche for himself, specializing in the design and execution of leisure housing, opulent holiday residences, bespoke villas, luxurious hotels, expansive resorts, and cutting-edge corporate spaces.
+                    </p>
+                    <p className="text-muted-foreground animate-fade-in opacity-0 delay-400">
+                      An illustrious alumnus of the esteemed Rizvi College of Architecture, Zayed honed his craft meticulously during a seven-year apprenticeship at The First group, in Dubai, UAE, a renowned architectural firm. This invaluable experience served as a pivotal springboard, empowering him to establish his own architectural practice under the banner of FiveSpace Chartered Realty.
+                    </p>
+                    <p className="text-muted-foreground animate-fade-in opacity-0 delay-500">
+                      Not one to rest on past accomplishments, Zayed's entrepreneurial spirit continued to soar as he ventured into various business domains. He stands as the visionary founder of FiveSpace 3D Studio, a forward-thinking enterprise that amalgamates technology with design, pushing the boundaries of architectural visualization.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         {/* Featured Project Section */}
         <section className="py-20 px-6 bg-secondary/50">
           <div className="max-w-6xl mx-auto">
