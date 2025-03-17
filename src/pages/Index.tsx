@@ -42,14 +42,14 @@ const Index: React.FC = () => {
         <ServicesGrid />
         
         {/* About Me Section */}
-        <section className="py-20 px-6 bg-background">
+        <section id="about" className="py-20 px-6 bg-background">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div className="animate-fade-in opacity-0">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
                   <img 
                     src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613"
-                    alt="Zayed Fox - Senior Architect"
+                    alt="Zayed - Senior Architect"
                     className="w-full aspect-[3/4] object-cover transition-transform duration-700 hover:scale-105"
                     loading="lazy"
                   />
@@ -62,7 +62,7 @@ const Index: React.FC = () => {
                     About Me
                   </span>
                   <h2 className="text-3xl font-semibold animate-fade-in opacity-0 delay-100">
-                    Zayed Fox
+                    Zayed
                   </h2>
                   <div className="space-y-4">
                     <p className="text-muted-foreground animate-fade-in opacity-0 delay-200">
