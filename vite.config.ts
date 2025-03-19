@@ -19,6 +19,8 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+    // Add explicit extensions to prevent directory loading issues
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
   },
   base: "/",
   build: {

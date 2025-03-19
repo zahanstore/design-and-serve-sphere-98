@@ -6,9 +6,18 @@
   
 [build.environment]
   NODE_VERSION = "18"
+  NPM_FLAGS = "--no-optional"
 
 # Handle SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Redirect default Netlify subdomain to primary domain
+# Uncomment and modify this if you have a custom domain
+# [[redirects]]
+#   from = "https://your-netlify-subdomain.netlify.app/*"
+#   to = "https://yourdomain.com/:splat"
+#   status = 301
+#   force = true
